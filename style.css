@@ -1,0 +1,52 @@
+.bodyindex {
+	background-image: url('index.jpg');
+	background-size: cover;
+	background-position: center center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+	color: white;
+	margin: 10%;
+	text-shadow: 0 5px 50px rgba(0,0,0,0.5);
+}
+
+.titreindex {
+    font-size: 20px;
+	margin: 0px;
+	height: 60%;
+}
+
+.descriptionindex {
+	font-size: 12px;
+	margin: 0px 56% 0px 0px;
+}
+
+.conteneurindex {
+	display: column;
+    align-items: center;
+	justify-content: left;
+}
+.lienindex {
+    font-size: 10px;
+	margin: 3px;
+	height: 60%;
+	text-decoration: none;
+	padding: 1% 1vh;
+	border: solid white 2px;
+	border-radius: 2px; 
+	color: white;
+	transition:0.3s;
+}
+.lienindex:hover {
+	background-color: white;
+	color: #000; 
+    color: rgba(0, 0, 0, 0.5);
+}
+.boutonindex {
+	margin: 10vh 0px 0px 0px;
+}
+
+
+
+
+
+
