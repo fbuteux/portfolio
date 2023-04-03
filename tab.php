@@ -9,10 +9,9 @@
 <nav class="nav-bar">
   <ul>
     <li><a href="accueil.php">Accueil</a></li>
-    <li><a href="experiences.html">Expériences </a></li>
+    <li><a href="experiences.html">Stages </a></li>
 	<li><a href="veille.html">Veille</a></li>
     <li><a href="formation.html">Formation</a></li>
-    <li><a href="apropos.html">A propos</a></li>
     <li><a href="contact.html">Contact</a></li>
   </ul>
 </nav>
@@ -79,7 +78,7 @@
 	<div class="ligne2">
 		<div class="v">
 			<form action="tab.php#tab" method="POST">
-			<input type="submit" value="Ludothèque" name="validation" class="relou"/>
+			<input type="submit" value="ludothèque" name="validation" class="relou"/>
 			</form>
 		</div>
 		<div class="boite2">
@@ -88,12 +87,14 @@
 		<div class="boite2">
 		aaaaa
 		</div>
-		<div class="boite2">
-		aaaaa
+		<div class="boite2coche">
+			<form action="tab.php#tab" method="POST" class="put">
+			<input type="submit" value="ludothèque" name="validation"/>
+			</form>
 		</div>
 		<div class="boite2coche">
 			<form action="tab.php#tab" method="POST" class="put">
-			<input type="submit" value="Ludothèque" name="validation"/>
+			<input type="submit" value="ludothèque" name="validation"/>
 			</form>
 		</div>
 		<div class="boite2">
@@ -106,7 +107,7 @@
 	<div class="ligne2">
 		<div class="v">
 			<form action="tab.php#tab" method="POST">
-			<input type="submit" value="Chiffrement" name="validation" class="relou"/>
+			<input type="submit" value="chiffrement" name="validation" class="relou"/>
 			</form>
 		</div>
 		<div class="boite2">
@@ -120,7 +121,7 @@
 		</div>
 		<div class="boite2coche">
 			<form action="tab.php#tab" method="POST" class="put">
-			<input type="submit" value="Chiffrement" name="validation"/>
+			<input type="submit" value="chiffrement" name="validation"/>
 			</form>
 		</div>
 		<div class="boite2">
@@ -133,7 +134,7 @@
 	<div class="ligne2">
 		<div class="v">
 			<form action="tab.php#tab" method="POST">
-			<input type="submit" value="Script-Bash" name="validation" class="relou"/>
+			<input type="submit" value="batch" name="validation" class="relou"/>
 			</form>
 		</div>
 		<div class="boite2">
@@ -150,7 +151,7 @@
 		</div>
 		<div class="boite2coche">
 			<form action="tab.php#tab" method="POST" class="put">
-			<input type="submit" value="Script-Bash" name="validation"/>
+			<input type="submit" value="batch" name="validation"/>
 			</form>
 		</div>
 		<div class="boite2">
@@ -160,43 +161,16 @@
 	<div class="ligne2">
 		<div class="v">
 			<form action="tab.php#tab" method="POST">
-			<input type="submit" value="windows-7" name="validation" class="relou"/>
+			<input type="submit" value="seven" name="validation" class="relou"/>
 			</form>
 		</div>
 		<div class="boite2coche">
 			<form action="tab.php#tab" method="POST" class="put">
-			<input type="submit" value="windows-7" name="validation"/>
+			<input type="submit" value="seven" name="validation"/>
 			</form>
 		</div>
 		<div class="boite2">
 		aaaa
-		</div>
-		<div class="boite2">
-		aaaaa
-		</div>
-		<div class="boite2">
-		aaaaa
-		</div>
-		<div class="boite2">
-		aaaaa
-		</div>
-		<div class="boite2">
-		aaaaa
-		</div>
-	</div>	
-	<div class="ligne2">
-		<div class="v">
-			<form action="tab.php#tab" method="POST">
-			<input type="submit" value="GLBP" name="validation" class="relou"/>
-			</form>
-		</div>
-		<div class="boite2">
-		aaaa
-		</div>
-		<div class="boite2coche">
-			<form action="tab.php#tab" method="POST" class="put">
-			<input type="submit" value="GLBP" name="validation"/>
-			</form>
 		</div>
 		<div class="boite2">
 		aaaaa
@@ -214,7 +188,34 @@
 	<div class="ligne2">
 		<div class="v">
 			<form action="tab.php#tab" method="POST">
-			<input type="submit" value="Startup" name="validation" class="relou"/>
+			<input type="submit" value="glbp" name="validation" class="relou"/>
+			</form>
+		</div>
+		<div class="boite2">
+		aaaa
+		</div>
+		<div class="boite2coche">
+			<form action="tab.php#tab" method="POST" class="put">
+			<input type="submit" value="glbp" name="validation"/>
+			</form>
+		</div>
+		<div class="boite2">
+		aaaaa
+		</div>
+		<div class="boite2">
+		aaaaa
+		</div>
+		<div class="boite2">
+		aaaaa
+		</div>
+		<div class="boite2">
+		aaaaa
+		</div>
+	</div>	
+	<div class="ligne2">
+		<div class="v">
+			<form action="tab.php#tab" method="POST">
+			<input type="submit" value="startup" name="validation" class="relou"/>
 			</form>
 		</div>
 		<div class="boite2">
@@ -225,7 +226,7 @@
 		</div>
 		<div class="boite2coche">
 			<form action="tab.php#tab" method="POST" class="put">
-			<input type="submit" value="Startup" name="validation"/>
+			<input type="submit" value="startup" name="validation"/>
 			</form>
 		</div>		
 		<div class="boite2">
@@ -236,7 +237,7 @@
 		</div>
 		<div class="boite2coche">
 			<form action="tab.php#tab" method="POST" class="put">
-			<input type="submit" value="Startup" name="validation"/>
+			<input type="submit" value="startup" name="validation"/>
 			</form>
 		</div>
 	</div>	
@@ -246,7 +247,7 @@
 	<div class="ligne2">
 		<div class="v">
 			<form action="tab.php#tab" method="POST">
-			<input type="submit" value="Spanningtree" name="validation" class="relou"/>
+			<input type="submit" value="spanningtree" name="validation" class="relou"/>
 			</form>
 		</div>
 		<div class="boite2">
@@ -254,7 +255,7 @@
 		</div>
 		<div class="boite2coche">
 			<form action="tab.php#tab" method="POST" class="put">
-			<input type="submit" value="Spanningtree" name="validation"/>
+			<input type="submit" value="spanningtree" name="validation"/>
 			</form>
 		</div>
 		<div class="boite2">
@@ -262,7 +263,7 @@
 		</div>
 		<div class="boite2coche">
 			<form action="tab.php#tab" method="POST" class="put">
-			<input type="submit" value="Spanningtree" name="validation"/>
+			<input type="submit" value="spanningtree" name="validation"/>
 			</form>
 		</div>
 		<div class="boite2">
@@ -275,7 +276,7 @@
 	<div class="ligne2">
 		<div class="v">
 			<form action="tab.php#tab" method="POST">
-			<input type="submit" value="OSPF-HSRP" name="validation" class="relou"/>
+			<input type="submit" value="hsrpospf" name="validation" class="relou"/>
 			</form>
 		</div>
 		<div class="boite2">
@@ -283,7 +284,7 @@
 		</div>
 		<div class="boite2coche">
 			<form action="tab.php#tab" method="POST" class="put">
-			<input type="submit" value="OSPF-HSRP" name="validation"/>
+			<input type="submit" value="hsrpospf" name="validation"/>
 			</form>
 		</div>		
 		<div class="boite2">
@@ -291,7 +292,7 @@
 		</div>
 		<div class="boite2coche">
 			<form action="tab.php#tab" method="POST" class="put">
-			<input type="submit" value="OSPF-HSRP" name="validation"/>
+			<input type="submit" value="hsrpospf" name="validation"/>
 			</form>
 		</div>
 		<div class="boite2">
@@ -304,12 +305,12 @@
 	<div class="ligne2">
 		<div class="v">
 			<form action="tab.php#tab" method="POST">
-			<input type="submit" value="Serveur-WIN" name="validation" class="relou"/>
+			<input type="submit" value="serveurwin" name="validation" class="relou"/>
 			</form>
 		</div>
 		<div class="boite2coche">
 			<form action="tab.php#tab" method="POST" class="put">
-			<input type="submit" value="Serveur-WIN" name="validation"/>
+			<input type="submit" value="serveurwin" name="validation"/>
 			</form>
 		</div>
 		<div class="boite2">
@@ -323,7 +324,7 @@
 		</div>
 		<div class="boite2coche">
 			<form action="tab.php#tab" method="POST" class="put">
-			<input type="submit" value="Serveur-WIN" name="validation"/>
+			<input type="submit" value="serveurwin" name="validation"/>
 			</form>
 		</div>
 		<div class="boite2">
@@ -336,7 +337,7 @@
 	<div class="ligne2">
 		<div class="v">
 			<form action="tab.php#tab" method="POST">
-			<input type="submit" value="Déploiement" name="validation" class="relou"/>
+			<input type="submit" value="déploiement" name="validation" class="relou"/>
 			</form>
 		</div>
 		<div class="boite2">
@@ -353,7 +354,7 @@
 		</div>
 		<div class="boite2coche">
 			<form action="tab.php#tab" method="POST" class="put">
-			<input type="submit" value="Déploiement" name="validation" />
+			<input type="submit" value="déploiement" name="validation" />
 			</form>
 		</div>		
 		<div class="boite2">
@@ -363,7 +364,7 @@
 	<div class="ligne2">
 		<div class="v">
 			<form action="tab.php#tab" method="POST">
-			<input type="submit" value="switch-scack" name="validation" class="relou"/>
+			<input type="submit" value="stack" name="validation" class="relou"/>
 			</form>
 		</div>
 		<div class="boite2">
@@ -371,7 +372,7 @@
 		</div>
 		<div class="boite2coche">
 			<form action="tab.php#tab" method="POST" class="put">
-			<input type="submit" value="switch-scack" name="validation" />
+			<input type="submit" value="stack" name="validation" />
 			</form>
 		</div>
 		<div class="boite2">
@@ -379,7 +380,7 @@
 		</div>
 		<div class="boite2coche">
 			<form action="tab.php#tab" method="POST" class="put">
-			<input type="submit" value="switch-scack" name="validation" />
+			<input type="submit" value="stack" name="validation" />
 			</form>
 		</div>
 		<div class="boite2">
@@ -392,12 +393,12 @@
 	<div class="ligne2">
 		<div class="v">
 			<form action="tab.php#tab" method="POST" >
-			<input type="submit" value="Outil-vSphère" name="validation" class="relou"/>
+			<input type="submit" value="vsphere" name="validation" class="relou"/>
 			</form>
 		</div>
 		<div class="boite2coche">
 			<form action="tab.php#tab" method="POST" class="put">
-			<input type="submit" value="Outil-vSphère" name="validation"/>
+			<input type="submit" value="vsphere" name="validation"/>
 			</form>
 		</div>
 		<div class="boite2">
@@ -408,7 +409,7 @@
 		</div>
 		<div class="boite2coche">
 			<form action="tab.php#tab" method="POST" class="put">
-			<input type="submit" value="Outil-vSphère" name="validation"/>
+			<input type="submit" value="vsphere" name="validation"/>
 			</form>
 		</div>	
 		<div class="boite2">
@@ -421,12 +422,12 @@
 	<div class="ligne2">
 		<div class="v">
 			<form action="tab.php#tab" method="POST">
-			<input type="submit" value="Maquette-PME" name="validation" class="relou"/>
+			<input type="submit" value="maquette" name="validation" class="relou"/>
 			</form>
 		</div>
 		<div class="boite2coche">
 			<form action="tab.php#tab" method="POST" class="put">
-			<input type="submit" value="Maquette-PME" name="validation"/>
+			<input type="submit" value="maquette" name="validation"/>
 			</form>
 		</div>
 		<div class="boite2">
@@ -437,7 +438,7 @@
 		</div>
 		<div class="boite2coche">
 			<form action="tab.php#tab" method="POST" class="put">
-			<input type="submit" value="Maquette-PME" name="validation"/>
+			<input type="submit" value="maquette" name="validation"/>
 			</form>
 		</div>
 		<div class="boite2">
@@ -450,12 +451,12 @@
 	<div class="ligne2">
 		<div class="v">
 			<form action="tab.php#tab" method="POST">
-			<input type="submit" value="Powershell" name="validation" class="relou"/>
+			<input type="submit" value="powershell" name="validation" class="relou"/>
 			</form>
 		</div>
 		<div class="boite2coche">
 			<form action="tab.php#tab" method="POST" class="put">
-			<input type="submit" value="Powershell" name="validation"/>
+			<input type="submit" value="powershell" name="validation"/>
 			</form>
 		</div>
 		<div class="boite2">
@@ -466,7 +467,7 @@
 		</div>
 		<div class="boite2coche">
 			<form action="tab.php#tab" method="POST" class="put">
-			<input type="submit" value="Powershell" name="validation"/>
+			<input type="submit" value="powershell" name="validation"/>
 			</form>
 		</div>
 		<div class="boite2">
@@ -523,7 +524,10 @@
 			
 	
 </body>
-	<footer>
-	ss
+	<footer style="display: flex; flex-direction: column;">
+	<a href="mentionlegale.html" style="color: #747474; text-decoration:none;">mentions légales</a>
+	<a href="https://fr.000webhost.com/vie-privee" style="color: #747474; text-decoration:none;">Privacy policy 000webhost</a>	
+	<p style="color: #747474; text-decoration:none; padding:0px; margin:0px;" p>Développé par : Florent Buteux</p>
+	<a href="https://fr.000webhost.com/" style="color: #747474; text-decoration:none; padding:0px; margin:0px;" p>Hébergé par : 000Webhost.com </a>
 	</footer>
 </html>

@@ -9,10 +9,9 @@
 <nav class="nav-bar">
   <ul>
     <li><a href="accueil.php">Accueil</a></li>
-    <li><a href="experiences.html">Expériences </a></li>
+    <li><a href="experiences.html">Stages </a></li>
 	<li><a href="veille.html">Veille</a></li>
     <li><a href="formation.html">Formation</a></li>
-    <li><a href="apropos.html">A propos</a></li>
     <li><a href="contact.php">Contact</a></li>
   </ul>
 </nav>
@@ -49,8 +48,11 @@
 	</div> 
 
 	<div class="jump"></div>
-		<footer >
+	<footer style="display: flex; flex-direction: column;">
 	<a href="mentionlegale.html" style="color: #747474; text-decoration:none;">mentions légales</a>
+	<a href="https://fr.000webhost.com/vie-privee" style="color: #747474; text-decoration:none;">Privacy policy 000webhost</a>	
+	<p style="color: #747474; text-decoration:none; padding:0px; margin:0px;" p>Développé par : Florent Buteux</p>
+	<a href="https://fr.000webhost.com/" style="color: #747474; text-decoration:none; padding:0px; margin:0px;" p>Hébergé par : 000Webhost.com </a>
 	</footer>
 </body>	
 </html>
